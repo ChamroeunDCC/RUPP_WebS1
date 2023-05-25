@@ -1,0 +1,176 @@
+
+*{
+    font-family: "Audiowide", sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    letter-spacing: 1px;
+}
+
+:root{
+    --color-section: gray;
+    --size-section:1rem;
+}
+
+header{
+    height: 50px;
+    background-color: silver;  
+    position: sticky;  
+    top: 0;
+    z-index: 100;
+}
+
+header .order_item{
+    display: flex;  
+}
+
+header .order_item .toast{
+    z-index: 100;
+}
+
+header .nav-bar{
+    height: 50px;   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+header .nav-bar .logo h2{
+    color:  gray;
+}
+
+header .nav-bar button{
+    height: 50px;
+    align-items: center;
+}
+
+header nav ul li{
+    margin-right: 2rem;
+    margin-top: 0.7rem;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: gray;
+}
+
+.home{
+    height: 100vh;
+    background-color: #eee;
+}
+
+.home .container .row{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.home .row .col-3 img{
+    width: 100%;
+}
+
+/* Menu */
+
+.menu{
+    text-align: center;
+}
+
+.menu .row .col-3 img{
+    width: 100%;
+}
+
+.menu .container h1{
+    color: var(--color-section);
+}
+.menu .container .list-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu .container .list-menu p{
+    color: firebrick;
+    font-size: 26px;
+    margin-left: 4rem;
+    text-decoration: none;
+}
+
+.menu .row .col-3 p{
+    color: red;
+}
+
+
+/* Booking Private Room */
+
+.hall{
+
+    background-color: #eee;
+    text-align: center;
+}
+
+.private-room{
+    text-align: center;
+}
+
+.private-room .row Link{
+    display: flex;
+}
+
+
+.private-room .row .col-4 p{
+    font-size: 1rem;
+    align-items: center;    
+    color: white;
+}
+.private-room .row .col-4 b{
+    font-size: 1.5rem;
+}
+ 
+.private-room .row .private1{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.private-room .row .private2{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.private-room .row .private3{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* Section Contact */
+
+
+.footer{
+    display: flex;  
+}
+.footer_color{
+    background-color: #eee; 
+}
+
+.footer .row .col{
+    display: flex;  
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .row .col-6 .item_footer h5{
+    font-size: 10px;    
+}
+
+.container .list li{
+    margin-right: 1.5rem;
+}
+
+.container .list .line{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.tableStyle{
+    float: right;
+    margin-right: 20rem;
+}
