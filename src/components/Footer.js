@@ -26,7 +26,6 @@ const Footer = () => {
                         <div className="item_footer">
                             <h5>Opening Hours</h5>
                             <p>Mon-Sat - 23PM, Sunday:Closed</p>
-                            <p>Helll My Name DCC</p>
                         </div>
                     </div>
                 </div>
